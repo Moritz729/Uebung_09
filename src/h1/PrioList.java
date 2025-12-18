@@ -2,7 +2,8 @@ package h1;
 import java.util.ArrayList;
 
 public class PrioList {
-    private ArrayList<Patient> myList=new ArrayList <Patient>();
+    public ArrayList<Patient> myList;
+    myList=new ArrayList <Patient>();
     public void addPatient(Patient p){
         int i=0;
         if(myList.isEmpty()==true){
