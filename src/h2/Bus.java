@@ -2,7 +2,7 @@ package h2;
 import java.util.ArrayList;
 
 public class Bus {
-    ArrayList <Passenger> passengers;
+    public ArrayList <Passenger> passengers;
     public Bus(){
         passengers=new ArrayList<Passenger>();
     }
